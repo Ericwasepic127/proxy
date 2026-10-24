@@ -18,8 +18,6 @@ GETWARN = """<title>Proxy Server</title>
 API_KEY = os.environ.get("API_KEY")  
 ENDPOINT = os.environ.get("ENDPOINT")
 LIMIT = int(os.environ.get("LIMIT", "7"))
-PROVIDER = os.environ.get("PROVIDER", "auto")
-MODEL = os.environ.get("MODEL", "auto")
 COUNT = 0
 LOCK = t.Lock()
 

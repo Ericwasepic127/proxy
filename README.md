@@ -1,10 +1,10 @@
-# AI-Proxy - Proxy server!
-This is a Proxy Server, mainly for TermiAI
+# Proxy - Proxy server!
+This is a Proxy Server, makes bearer authentication to nothing by securely hiding your API key!
 
 # How to use?
-Click use this template above or `git clone https://github.com/Ericwasepic127/AI-Proxy.git`
+Click use this template above or `git clone https://github.com/Ericwasepic127/proxy.git`
 
-Then, edit env.example file, rename to .env and follow instructions (like set GROQ_API_KEY)
+Then, edit env.example file, rename to .env and follow instructions (like set API_KEY)
 
 After that, do
 ```shell
@@ -13,6 +13,6 @@ gunicorn app:app
 ```
 **OR**
 
-Host on platform like [Render](render.com)
+Host on platform like [Render](https://render.com/)
 
-and get your URL like https://ai-proxy-wk3r.onrender.com/
+and get your URL so
